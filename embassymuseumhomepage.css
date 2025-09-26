@@ -1,4 +1,20 @@
+/* Basis styling */
 ul {
   display: flex; /* or inline-flex */
+  gap: 1.25rem;
 }
 
+/* Header */
+header {
+  background-color: #09c7e8;
+  color: #fff;
+  padding: 1rem;
+}
+
+
+/* Footer */
+footer {
+  background-color: #09c7e8;
+  color: #fff;
+  padding: 1rem;
+}
