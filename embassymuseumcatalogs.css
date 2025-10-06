@@ -12,23 +12,57 @@ body {
   line-height: 1.6;
 }
 
-
+/* Header en navigatie */
 header {
-background-color: #222;
-color: #fff;
-padding: 20px 10%;
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-wrap: wrap;
+  background: #222;
+  color: #fff;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 header h1 {
   font-size: 1.8rem;
 }
 
+Catalogs{
 
-/* Embassy afbeelding bovenaan */
+
+   }
+        #searchBar {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        img {
+            width: 80px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+/* Hero afbeelding bovenaan */
 .hero {
   background: url('assets/Schermafbeelding\ 2025-09-25\ 112749.png') center/cover no-repeat;
   color: #fff;
@@ -92,26 +126,21 @@ footer {
   color: #fff;
   text-align: center;
   padding: 30px 10%;
+}
 
-  ul {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    list-style: none;
-    margin-bottom: 10px;
-  }
-  a {
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+footer a {
   color: #fff;
   text-decoration: none;
   transition: color 0.3s;
 }
-
-}
-
- 
-
-footer 
-
 
 footer a:hover {
   color: #f0a500;
