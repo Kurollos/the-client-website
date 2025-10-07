@@ -7,15 +7,15 @@
 }
 
 body {
-  background: #002646;
-  color: #002646;
+  background: #f8f6f5;
+  color: #333;
   line-height: 1.6;
 }
 
 
 header {
 background-color: #002646;
-color: #002646;
+color: #fff;
 padding: 20px 10%;
 display: flex;
 justify-content: space-between;
@@ -28,7 +28,7 @@ header h1 {
 }
 
 
-/* Embassy afbeelding bovenaan */
+/* Hero afbeelding bovenaan */
 .hero {
   background: url('assets/Schermafbeelding\ 2025-09-25\ 112749.png') center/cover no-repeat;
   color: #fff;
@@ -88,7 +88,7 @@ section p {
 
 /* Footer */
 footer {
-  background: #222;
+  background: #002646;
   color: #fff;
   text-align: center;
   padding: 30px 10%;

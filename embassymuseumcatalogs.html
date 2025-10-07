@@ -1,82 +1,171 @@
 <!DOCTYPE html>
 <html lang="nl">
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale1.0">
-<title>Embassy of the Mind Museum 2025</title>
-<link rel="stylesheet" href="embassymuseumcatalogs.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embassy of the Mind Museum 2025 - Catalogus</title>
+    <link rel="stylesheet" href="embassymuseumcatalogs.css">
+</head>
+<body>
 
 <header>
-    <h1>Embassy of the free Mind Museum 2025</h1>
-
-<nav class="menu">
-      <ul>
-        <li><a href="embassymuseumhomepage.html">Home</a></li>
-        <li><a href="#">Tickets</a></li>
-        <li><a href="embassymuseumcatalogs.html">Catalogs</a></li>
-        <li><a href="#">Detail</a></li>
-      </ul>
+    <h1>Embassy of the Free Mind Museum 2025</h1>
+    <nav class="menu">
+        <ul>
+            <li><a href="embassymuseumhomepage.html">Home</a></li>
+            <li><a href="#">Tickets</a></li>
+            <li><a href="embassymuseumcatalogs.html">Catalogs</a></li>
+            <li><a href="#">Detail</a></li>
+        </ul>
     </nav>
 </header>
 
 <main>
- <!-- Hero afbeelding -->
-<section class="hero">
-<h2>Embassy of the Free Mind Museum Catalogs</h2>
-<p>Een overzicht van enkele bijzondere boeken en waar in je verschillende kennisen kan ondekken.</p>
-</section>
+    <!-- Hero afbeelding -->
+    <section class="hero">
+        <h2>Embassy of the Free Mind Museum Catalogs</h2>
+        <p>Een overzicht van enkele bijzondere boeken en waar je verschillende kennis kan ontdekken.</p>
+    </section>
 
-  <h1>Boekencatalogus</h1>
+    <h1>Boekencatalogus</h1>
 
-   <input type="text" id="searchBar" placeholder="Zoek op titel of auteur..." onkeyup="searchBooks()">
+    <input type="text" id="searchBar" placeholder="Zoek op titel of auteur..." onkeyup="searchBooks()">
 
- <table id="catalog">
-            <th>Cover</th>
-            <th>Titel</th>
-            <th>Auteur</th>
-            <th>Jaar</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                <a href="https://archive.org/details/nachrichtenvonei01graf" target="_blank">
+    <table id="catalog">
+        <thead>
+            <tr>
+                <th>Cover</th>
+                <th>Titel</th>
+                <th>Auteur</th>
+                <th>Jaar</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Boek 1 -->
+            <tr>
+                <td>
                     <img src="https://archive.org/services/img/nachrichtenvonei01graf" alt="Cover Nachrichten von einem grossen aber unsichtbaren Bunde">
-                </a>
-            </td>
-            <td>Nachrichten von einem grossen aber unsichtbaren Bunde gegen die christliche Religion und die monarchischen Staaten</td>
-            <td>[Grolman, Ludwig Adolf Christian von]</td>
-            <td>1795</td>
-        </tr>
-        <tr>
-            <td>
-                <a href="https://koberverlag.ch/produkte/wegweiser.html" target="_blank">
+                    </a>
+                </td>
+                <td>Nachrichten von einem grossen aber unsichtbaren Bunde tegen die christliche Religion und die monarchischen Staaten</td>
+                <td>[Grolman, Ludwig Adolf Christian von]</td>
+                <td>1795</td>
+                <td>
+                    <details>
+                        <summary>Bekijk details</summary>
+                        <p>UBN: 21485</p>
+                        <p>Plaats van uitgave: Giessen</p>
+                        <p>Signatuur: Rv</p>
+                        <p>Serietitel: het werd als zelfstandig pamflet of geschrift gepubliceerd in 1795.</p>
+                        <p>Samenvatting: beschrijft een geheim genootschap dat de christelijke religie en monarchie beïnvloedt. Het is satirisch van toon en behandelt de sociale en politieke spanningen van die tijd.</p>
+                        <p>Link: <a href="https://archive.org/details/nachrichtenvonei01graf" target="_blank">Bekijk bron</a></p>
+                    </details>
+                </td>
+            </tr>
+
+            <!-- Boek 2 -->
+            <tr>
+                <td>
                     <img src="https://archive.org/services/img/wegweiserzumzen00shim" alt="Cover Wegweiser zum Zen. Zen-Buddhismus nach Rinzai">
-                </a>
-            </td>
-            <td>Wegweiser zum Zen. Zen-Buddhismus nach Rinzai</td>
-            <td>Shimano, Eidō T.</td>
-            <td>1994</td>
-        </tr>
-        <tr>
-            <td>
-                <a href="https://www.jstor.org/stable/40526720" target="_blank">
+                    </a>
+                </td>
+                <td>Wegweiser zum Zen. Zen-Buddhismus nach Rinzai</td>
+                <td>Shimano, Eidō T.</td>
+                <td>1994</td>
+                <td>
+                    <details>
+                       <summary>Bekijk details</summary>
+                        <p>Herkomst: Erich Kaniok</p>
+                        <p>UBN: 24690</p>
+                        <p>Plaats van uitgave: Berlin</p>
+                        <p>Signatuur: Zen Alg S</p>
+                        <p>Serietitel: Zen-boeddhisme reeks</p>
+                        <p>Samenvatting: Een praktische gids over Zen-boeddhisme volgens de Rinzai-school, met oefeningen en uitleg van meditatieprincipes.</p>
+                        <p>Link: <a href="https://www.deutsche-digitale-bibliothek.de/item/X4SZN5EWUWME3VXS5N73H5MSUEB236AB" target="_blank">Bekijk bron</a></p>
+                    </details>
+                </td>
+            </tr>
+
+            <!-- Boek 3 -->
+            <tr>
+                <td>
                     <img src="https://archive.org/services/img/lequincuplexpsal00lefe" alt="Cover Le Quincuplex Psalterium de Lefèvre d'Étaples">
-                </a>
-            </td>
-            <td>Le Quincuplex Psalterium de Lefèvre d'Étaples</td>
-            <td>Bedouelle, Guy</td>
-            <td>1979</td>
-        </tr>
-    </tbody>
-</table>
+                    </a>
+                </td>
+                <td>Le Quincuplex Psalterium de Lefèvre d'Étaples</td>
+                <td>Bedouelle, Guy</td>
+                <td>1979</td>
+                <td>
+                    <details>
+                       <summary>Bekijk details</summary>
+                        <p>Herkomst: Erich Kaniok</p>
+                        <p>UBN: 11911</p>
+                        <p>Plaats van uitgave: Genève</p>
+                        <p>Signatuur: Herm LB, VIII</p>
+                        <p>Serietitel: Historische theologische werken</p>
+                        <p>Samenvatting: Een kritische uitgave van de Psalterium-tekst van Lefèvre d'Étaples, met toelichting en historische aantekeningen.</p>
+                        <p>Link: <a href="https://archive.org/details/bim_early-english-books-1641-1700_quincuplex-psalterium_1509" target="_blank">Bekijk bron</a></p>
+                    </details>
+                </td>
+            </tr>
+
+            <!-- Boek 4 -->
+            <tr>
+                <td>
+                    <img src="https://archive.org/services/img/lequincuplexpsal00lefe" alt="Cover Niets is zo. De kern van zen">
+                    </a>
+                </td>
+                <td>Niets is zo. De kern van zen</td>
+                <td>Suzuki, Shunryu</td>
+                <td>2007</td>
+                <td>
+                    <details>
+                        <summary>Bekijk details</summary>
+                        <p>Herkomst: Erich Kaniok</p>
+                        <p>UBN: 24795</p>
+                        <p>Plaats van uitgave: Deventer</p>
+                        <p>Signatuur: ZEN-S</p>
+                        <p>Serietitel: Zen-boeddhisme reeks</p>
+                        <p>Samenvatting: Kernprincipes van Zen, meditatie en de leer van Rinzai.</p>
+                        <p>Link: <a href="https://rozet.nl/catalogus/1344427/" target="_blank">Bekijk bron</a></p>
+                    </details>
+                </td>
+            </tr>
+
+            <!-- Boek 5 -->
+            <tr>
+                <td>
+                    <img src="https://archive.org/services/img/lequincuplexpsal00lefe" alt="Cover Een nog onbekende Duitse uitgave van Die Evangelische Peerle uit 1706">
+                    </a>
+                </td>
+                <td>Een nog onbekende Duitse uitgave van Die Evangelische Peerle uit 1706</td>
+                <td>Begheyn, P.J</td>
+                <td>1976</td>
+                <td>
+                    <details>
+                        <summary>Bekijk details</summary>
+                        <p>UBN: 123456789</p>
+                        <p>Plaats van uitgave: Amsterdam</p>
+                        <p>Signatuur: ABC-123</p>
+                        <p>Serietitel: Historische Schriften</p>
+                        <p>Samenvatting: Invloed van het onzichtbare genootschap op de christelijke religie in de 18e eeuw.</p>
+                        <p>Link: <a href="https://rozet.nl/catalogus/429232/" target="_blank">Bekijk bron</a></p>
+                    </details>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
 </main>
 
 <footer class="menu">
-  <ul>
-    <li><a href="#">Donatie</a></li>
-    <li><a href="#">Contact</a></li>
-    <li><a href="#">FAQ</a></li>
-  </ul>
+    <ul>
+        <li><a href="#">Donatie</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">FAQ</a></li>
+    </ul>
 </footer>
 
+</body>
+</html>
