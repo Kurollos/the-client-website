@@ -177,3 +177,23 @@ footer a:hover {
 footer p {
   font-size: 0.9rem;
 }
+
+/*  Tablet (vanaf 481px breed) */
+@media (min-width: 481px) {
+  nav {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  nav button {
+    width: auto;
+  }
+}
+
+/*  Desktop (vanaf 769px breed) */
+@media (min-width: 769px) {
+  section img {
+    width: 70%;
+  }
+}
+
