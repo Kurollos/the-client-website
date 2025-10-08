@@ -29,7 +29,7 @@ Mijn project ziet er uit als een museum website en hoe het werkt is je klikt op 
 ## poster catalog visual
 <img width="959" height="408" alt="image" src="https://github.com/user-attachments/assets/a1fd7b51-e59d-49fa-9ebc-0b9ec7d6c0a0" />
 
-## github pages
+## github link pages
 kurollos.github.io/the-client-website/
 
 ## Kenmerken
