@@ -78,7 +78,7 @@ section {
 section h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #222;
+  color: #07dbf7;
 }
 
 section p {
@@ -179,7 +179,7 @@ footer p {
 }
 
 /* Responsive */
-@media (min-width: 481px) {
+@media (min-width: 390px) {
   nav {
     flex-direction: row;
     gap: 0.5rem;
