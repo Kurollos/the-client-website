@@ -14,6 +14,7 @@ De instructie van deze leertaak staan in de [INSTRUCTIONS](https://github.com/fd
 
 
 ## intro
+Wat is mijn project
 <img width="949" height="437" alt="image" src="https://github.com/user-attachments/assets/2073381e-eb3b-4559-87fe-18c763f8a782" />
 
 ## Beschrijving
